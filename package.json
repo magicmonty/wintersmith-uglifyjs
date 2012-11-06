@@ -1,0 +1,20 @@
+{
+  "name": "wintersmith-uglify2",
+  "version": "0.0.1",
+  "author": {
+    "name": "magicmonty",
+    "email": "magicmonty@pagansoft.de"
+  },
+  "description": "Assets compressor/uglifier.",
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js2": ">= 0.0.1",
+	"coffee-script": ">= 0.0.1"
+  },
+  "readme": "# wintersmith-uglify2\n\nPlugin for [wintersmith](https://github.com/jnordberg/wintersmith) which:\n\n* [uglifyjs](https://github.com/mishoo/UglifyJS) your js scripts\n\n### Install:\n\n```sh\nnpm\ninstall wintersmith-uglify2 -g\n```\n\nthen add `wintersmith-uglify2` to plugins in your wintersmith config\n",
+  "_id": "wintersmith-uglify2@0.0.1",
+  "dist": {
+    "shasum": "4c367199eeb2bde55548e8664b62c2350eb8c160"
+  },
+  "_from": "wintersmith-uglify2"
+}
