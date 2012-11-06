@@ -1,20 +1,23 @@
 {
   "name": "wintersmith-uglify2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "magicmonty",
     "email": "magicmonty@pagansoft.de"
   },
-  "description": "Assets compressor/uglifier.",
+  "description": "Assets compressor/uglifier for wintersmith.",
+  "preferGlobal": "true",
+  "keywords": ["wintersmith", "plugin", "uglifyjs"],
   "license": "MIT",
   "dependencies": {
     "uglify-js2": ">= 0.0.1",
 	"coffee-script": ">= 0.0.1"
   },
-  "readme": "# wintersmith-uglify2\n\nPlugin for [wintersmith](https://github.com/jnordberg/wintersmith) which:\n\n* [uglifyjs](https://github.com/mishoo/UglifyJS) your js scripts\n\n### Install:\n\n```sh\nnpm\ninstall wintersmith-uglify2 -g\n```\n\nthen add `wintersmith-uglify2` to plugins in your wintersmith config\n",
-  "_id": "wintersmith-uglify2@0.0.1",
-  "dist": {
-    "shasum": "4c367199eeb2bde55548e8664b62c2350eb8c160"
+  "repository" : {
+	"type": "git",
+	"url": "https://magicmonty@github.com/magicmonty/wintersmith-uglify2.git"
   },
+  "readme": "# wintersmith-uglify\n\nPlugin for [wintersmith](https://github.com/jnordberg/wintersmith) which:\n\n* [uglifyjs](https://github.com/mishoo/UglifyJS2) your js scripts\n\n### Install:\n\n```sh\nnpm install -g wintersmith-uglify2\n```\n\nthen add `wintersmith-uglify2` to plugins in your wintersmith config\n\nAll javascripts have to reside in a directory called js outside the contents folder.\nin the js folder should be a file called default.ugljs with the following JSON content:\n\n    {\n      "uglify": [\n        "file1.js",\n        "file2.js",\n        ...\n      ]\n    }\n\non build the plugin compresses all listed files in order with uglify and creates a single file called ```default.js``` which can be included in the HTML\n",
+  "_id": "wintersmith-uglify2@0.0.1",
   "_from": "wintersmith-uglify2"
 }
