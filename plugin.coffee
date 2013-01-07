@@ -1,4 +1,4 @@
-uglify = require 'uglify-js2'
+uglify = require 'uglify-js'
 fs = require 'fs'
 path = require 'path'
 

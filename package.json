@@ -10,7 +10,7 @@
   "keywords": ["wintersmith", "plugin", "uglifyjs"],
   "license": "MIT",
   "dependencies": {
-    "uglify-js2": ">= 0.0.1",
+    "uglify-js": ">= 0.0.1",
 	"coffee-script": ">= 0.0.1"
   },
   "repository" : {
